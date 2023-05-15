@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 *{
     margin: 0;
@@ -13,6 +14,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    user-select: none;
+}
+
+#name span{
+    color: #fff;
+    font-size: larger;
+    font-family: 'Fira Code', monospace;
+}
+
+#name a{
+    text-decoration: none;
 }
 
 .relogio {

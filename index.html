@@ -8,23 +8,29 @@
     <title>Relógio Virtual</title>
 </head>
 <body>
-    <div class="relogio">
-        <div>
-            <span id="horas">00</span>
-            <span class="tempo">Horas</span>
+    <div id="container">
+        <div class="relogio">
+            <div>
+                <span id="horas">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+            <div>
+                <span id="minutos">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+            <div>
+                <span id="segundos">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
         </div>
-
-        <div>
-            <span id="minutos">00</span>
-            <span class="tempo">Minutos</span>
+        <div id="name">
+            <a href="https://github.com/JaoBrito" target="_blank">
+                <span><ion-icon name="logo-github"></ion-icon>&nbspJaoBrito</span>
+            </a>
         </div>
-
-        <div>
-            <span id="segundos">00</span>
-            <span class="tempo">Segundos</span>
-        </div>
-
     </div>
 <script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
