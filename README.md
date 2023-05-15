@@ -8,4 +8,4 @@ Preview:
 <br>
 <hr>
 
-![image](https://github.com/JaoBrito/relogio-virtual/assets/83669513/7a5c49ec-9a32-4e8c-8b83-c248d31086e9)
+![image](https://github.com/JaoBrito/relogio-virtual/assets/83669513/12ec1bc1-ee5b-4ef6-9982-9639c9e7c9d7)
